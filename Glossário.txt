@@ -1,0 +1,33 @@
+Estruturas de Dados
+
+-Estruturas físicas:
+  -Tipos de variáveis
+  -Define o tamanho da memória alocada
+	-São dependentes da linguagem
+		
+-Estruturas de dados abstratas:
+
+  -Algoritmos de gestão de memória(CRUD)
+	-Inserção(add, append, insert, push_back)
+	-Percurso
+	    -Exibir(System.out.print, Console.print, print)
+	    -contar(size, count, len, size)
+	    -localizar(contains, Contain, in) 
+	    -remover(delete, Delete, delete)
+	    ...
+	    
+-Lineares
+	-Listas
+	    (ArrrayList, list, [], vector)
+	-Pilhas
+	    Last In, First Out(LIFO) - somente operações de inserção e remoção no topo
+	    -Inserção: push ou add
+	    -Remoção: pop ou delete
+	-Filas
+	    Fist in, First Out(FIFO) - somente operações de inserção(cauda ou fim) e remoção(cabeça ou início)
+	    -Inserção: add ou append
+	    -Remoção: delete ou remove
+	    
+-Não lineares
+	-Árvores: Tem todas as operações - busca
+	-Grafos: O objetivo é mapear pontos com em mapas, infraestruturas
