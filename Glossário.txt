@@ -18,7 +18,7 @@ Estruturas de Dados
 	    
 -Lineares
 	-Listas
-	    (ArrrayList, list, [], vector)
+	    (ArrrayList, List, [], vector)
 	-Pilhas
 	    Last In, First Out(LIFO) - somente operações de inserção e remoção no topo
 	    -Inserção: push ou add
