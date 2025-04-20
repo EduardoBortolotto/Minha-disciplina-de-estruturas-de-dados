@@ -61,7 +61,7 @@ class Cidade {
 
 public class ListaCidades {
 
-    public void cadastrarCidade(List<Cidade> cidades) {
+    public static void cadastrarCidade(List<Cidade> cidades) {
         Scanner sc = new Scanner(System.in);
         String nome, estado;
 
@@ -79,7 +79,7 @@ public class ListaCidades {
         
     }
 
-    public void listarCidades(List<Cidade> cidades) {
+    public static void listarCidades(List<Cidade> cidades) {
         if (cidades.isEmpty()) {
             System.out.println("Nenhuma cidade cadastrada.");
         } else {
@@ -90,7 +90,7 @@ public class ListaCidades {
         }
     }
 
-    public void pesquisarCidade(List<Cidade> cidades) {
+    public static void pesquisarCidade(List<Cidade> cidades) {
         Scanner sc = new Scanner(System.in);
         String nome, estado;
 
@@ -107,7 +107,7 @@ public class ListaCidades {
         System.out.println("Cidade não encontrada.");
     }
 
-    public void removerCidade(List<Cidade> cidades) {
+    public static void removerCidade(List<Cidade> cidades) {
         Scanner sc = new Scanner(System.in);
         String nome, estado;
 
